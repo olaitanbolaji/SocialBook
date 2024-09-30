@@ -186,15 +186,18 @@ nav {
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.event p{
+
+.event p {
     font-size: 12px;
 }
-.event a{
+
+.event a {
     font-size: 12px;
     text-decoration: none;
     color: #1876f2;
 }
-.left-event span{
+
+.left-event span {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -203,4 +206,27 @@ nav {
     color: #fff;
     font-size: 10px;
     padding: 4px 0;
+}
+
+.sidebar-ads {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.online-list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.online-list .online img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.online-list.online{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
 }
